@@ -1,0 +1,52 @@
+<!doctype.html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="listCSS.css">
+        <script type="text/javascript" src="listSCRIPT.js"></script>
+            
+        <title> La Liste </title>
+    </head>
+    
+    <body>
+        
+          <h1> La Liste </h1>
+        <h5> made by @Elodie & @Gorka </h5>
+       
+       <div id="liste">
+        <table>
+            <tr>
+                <h2> Ajouter des éléments à la liste
+            </tr>
+            <tr>
+            <input id="ajoutInput" placeholder="ajouter ici"></input>
+            <button id="ajouterBtn" type="submit" onClick="addEntry();">Ajouter</button>
+            </tr>
+        </table>
+      
+        <br>
+      
+      
+        <section>
+            <div id="exemple">
+            <p class="entry" onClick="rayerEntry();"> La liste est vide
+            </div>
+           
+            <div id="content">
+                <!-- alimenté par l'Input de l'utilisateur -->
+            </div>
+         </section>
+      
+</div>       
+        <table>
+            <tr>
+                <button id="clearBtn" onClick="oClearContent();"> Effacer </button>
+            </tr>
+        </table>
+      
+        
+    </body>
+    
+    <footer>
+        
+    </footer>

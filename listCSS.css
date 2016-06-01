@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Rum+Raisin);
+  html {
+    background-color: #83AF9B;
+    color: whiteSmoke;
+    text-align: center;
+    font-family: "Rum Raisin", sans-serif;
+}
+
+#liste {
+    box-shadow: 2px 4px 2px gray;
+    width: 35%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #B3D1C1;
+}
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    text-shadow: 2px 4px 2px gray;
+}
+
+h5 {
+   margin-top: -40px;
+   margin-bottom: 50px;
+}
+
+h2 {
+    text-shadow: 2px 4px 2px #83AF9B;
+}
+
+p {
+    font-size: 16px;
+}
+#clearBtn {
+    margin-top: 20px;
+    padding: 3px;
+  border-radius: 3px;
+  width: 100px;
+}
+
+#ajouter{
+  width: 35%;
+  padding: 10px;
+  border-radius: 3px;
+  background-color:  rgba(128,128,128, 0.4);
+}
+
+
+ #ajouterBtn{
+   padding: 0px;
+   width: 80px;
+   margin-left: 10px;
+   border-radius: 3px;
+}
+
+section p {
+    background-color: #FC9D9A;
+    border-radius: 10px;
+    box-shadow: 2px 4px 2px gray;
+    border: 2px solid gray;
+}
